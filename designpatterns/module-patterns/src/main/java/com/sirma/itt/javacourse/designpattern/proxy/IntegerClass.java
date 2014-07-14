@@ -1,4 +1,5 @@
 package com.sirma.itt.javacourse.designpattern.proxy;
+
 /**
  * The real Integer class.
  * 
@@ -10,5 +11,5 @@ public class IntegerClass implements Integer {
 	public int getValue() {
 		return 666;
 	}
-	
+
 }

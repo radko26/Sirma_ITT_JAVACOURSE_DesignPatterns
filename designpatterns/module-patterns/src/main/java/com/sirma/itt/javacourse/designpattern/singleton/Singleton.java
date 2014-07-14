@@ -10,8 +10,8 @@ public enum Singleton {
 	INSTANCE;
 	/**
 	 * Method for test purposes.
-	 * @return
-	 * 		666 because i like how it looks.
+	 * 
+	 * @return 666 because i like how it looks.
 	 */
 	public int getNumber() {
 		return 666;

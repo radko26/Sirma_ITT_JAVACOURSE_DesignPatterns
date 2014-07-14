@@ -1,17 +1,23 @@
 package com.sirma.itt.javacourse.designpattern.proxy;
+
 /**
  * Factory that creates {@link IntegerProxy} instances.
  * 
  * @author radoslav
  */
-public class IntegerFactory {
+public final class IntegerFactory {
 	/**
-	 * Disable instancing
+	 * Disable instancing.
 	 */
-	private IntegerFactory(){	
+	private IntegerFactory() {
 	}
-	
-	public static IntegerProxy createInstance(){
+
+	/**
+	 * Creates new instance of {@link IntegerProxy}.
+	 * 
+	 * @return The new instance.
+	 */
+	public static IntegerProxy createInstance() {
 		return new IntegerProxy();
 	}
 }

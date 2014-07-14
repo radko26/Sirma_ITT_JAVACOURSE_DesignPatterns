@@ -24,13 +24,13 @@ public class SingletonOld {
 	public static SingletonOld getInstance() {
 		return instance;
 	}
-	
+
 	/**
 	 * Method for test purposes.
-	 * @return
-	 * 		666 because i like how it looks.
+	 * 
+	 * @return 666 because i like how it looks.
 	 */
-	public int getNumber(){
+	public int getNumber() {
 		return 666;
 	}
 

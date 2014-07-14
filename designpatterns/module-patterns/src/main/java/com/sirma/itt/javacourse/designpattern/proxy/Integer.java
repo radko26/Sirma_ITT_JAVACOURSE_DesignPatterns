@@ -1,4 +1,5 @@
 package com.sirma.itt.javacourse.designpattern.proxy;
+
 /**
  * Interface for Integer value.
  * 
@@ -7,8 +8,8 @@ package com.sirma.itt.javacourse.designpattern.proxy;
 public interface Integer {
 	/**
 	 * Getter for value.
-	 * @return
-	 * 		The value.
+	 * 
+	 * @return The value.
 	 */
 	public int getValue();
 }
