@@ -1,10 +1,11 @@
 package com.sirma.itt.javacourse.designpattern.proxy;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
+
 /**
- * Test class 
+ * Test class
  * 
  * @author radoslav
  */
@@ -14,11 +15,11 @@ public class IntegerProxyTest {
 	 */
 	@Test
 	public void testGetValue() {
-		IntegerProxy proxy = IntegerFactory.createInstance(); 
+		IntegerProxy proxy = IntegerFactory.createInstance();
 		IntegerClass real = new IntegerClass();
 		proxy.setRealInteger(real);
-		
-		assertTrue(proxy.getValue()==666);
+
+		assertTrue(proxy.getValue() == 666);
 	}
 
 }

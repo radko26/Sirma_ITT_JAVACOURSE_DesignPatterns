@@ -1,10 +1,9 @@
 package com.sirma.itt.javacourse.designpattern.singleton;
 
-
-
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
 /**
  * Test class for {@link Singleton}.
  * 
@@ -16,8 +15,8 @@ public class SingletonOldTest {
 	 */
 	@Test
 	public void testGetNumber() {
-		
-			assertEquals(666,SingletonOld.getInstance().getNumber());
+
+		assertEquals(666, SingletonOld.getInstance().getNumber());
 	}
 
 }

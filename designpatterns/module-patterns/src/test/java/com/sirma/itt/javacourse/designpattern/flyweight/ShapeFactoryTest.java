@@ -1,6 +1,6 @@
 package com.sirma.itt.javacourse.designpattern.flyweight;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
@@ -30,7 +30,7 @@ public class ShapeFactoryTest {
 			} else {
 				assertTrue(ShapeFactory.INSTANCE.getDebug());
 			}
-			float circleRadius=(float) (Math.random() * 99 + 1);
+			float circleRadius = (float) (Math.random() * 99 + 1);
 			circle.setRadius(circleRadius);
 			assertTrue(circle.draw().contentEquals("Circle " + circleRadius));
 		}

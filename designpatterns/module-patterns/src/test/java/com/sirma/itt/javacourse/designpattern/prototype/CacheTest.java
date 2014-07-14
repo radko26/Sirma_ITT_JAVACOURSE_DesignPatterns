@@ -1,9 +1,10 @@
 package com.sirma.itt.javacourse.designpattern.prototype;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 import java.util.HashMap;
 import java.util.Map;
+
 import org.junit.Before;
 import org.junit.Test;
 

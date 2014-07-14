@@ -1,4 +1,4 @@
-package com.sirma.itt.javacourse.designpattern.momento;
+package com.sirma.itt.javacourse.designpattern.memento;
 
 /**
  * Creates a {@link Memento} object containing a snapshot of its current

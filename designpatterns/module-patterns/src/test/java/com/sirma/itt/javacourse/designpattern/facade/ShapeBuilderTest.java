@@ -1,8 +1,9 @@
 package com.sirma.itt.javacourse.designpattern.facade;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
+
 /**
  * Test class for {@link ShapeBuilder}.
  * 

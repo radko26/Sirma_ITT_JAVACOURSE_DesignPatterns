@@ -1,4 +1,4 @@
-package com.sirma.itt.javacourse.designpattern.momento;
+package com.sirma.itt.javacourse.designpattern.memento;
 
 /**
  * Stores information about the Originator object.

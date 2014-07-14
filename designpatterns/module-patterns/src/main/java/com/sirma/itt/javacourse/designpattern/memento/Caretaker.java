@@ -1,4 +1,4 @@
-package com.sirma.itt.javacourse.designpattern.momento;
+package com.sirma.itt.javacourse.designpattern.memento;
 
 /**
  * Has responsibilities to preserve the memento object.
