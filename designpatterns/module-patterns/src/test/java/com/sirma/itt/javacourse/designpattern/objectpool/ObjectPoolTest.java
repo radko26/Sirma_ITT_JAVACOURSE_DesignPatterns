@@ -34,6 +34,7 @@ public class ObjectPoolTest {
 	 * Checks if frees the instances.
 	 * 
 	 * @throws Exception
+	 *             If the limit has been reached.
 	 */
 	@Test(expected = Exception.class)
 	public void testRelease() throws Exception {
